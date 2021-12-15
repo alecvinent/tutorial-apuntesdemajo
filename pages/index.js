@@ -100,6 +100,7 @@ export async function getStaticProps() {
         props: {
             joke: data,
             errorMsg: error
-        }
+        },
+        revalidate: 10 // 10s
     };
 }
