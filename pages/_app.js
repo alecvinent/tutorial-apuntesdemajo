@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import styles from "../styles/Home.module.scss";
 import Image from "next/image";
 import HeadMeta from "../components/HeadMeta";
+import Link from "next/link";
 
 function MyApp({Component, pageProps}) {
     return (
@@ -10,6 +11,10 @@ function MyApp({Component, pageProps}) {
                 <HeadMeta/>
 
                 <main className={styles.main}>
+                    <h1 className={styles.title}>
+                        Welcome to <Link href="/">Los Apuntes de Majo</Link> reloaded
+                    </h1>
+
                     {/*content area here*/}
                     <Component {...pageProps} />
                     {/*content area here*/}
