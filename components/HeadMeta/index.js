@@ -25,6 +25,21 @@ const HeadMeta = ({title = 'Home', description = 'A short description goes here.
                 }, {
                     property: 'keywords',
                     content: 'apuntes, desarrollo de software, majo, alec vinent'
+                }, {
+                    property: 'twitter:card',
+                    content: title,
+                }, {
+                    property: 'twitter:image',
+                    content: './images/logo_apuntes.png',
+                }, {
+                    property: 'og:url',
+                    content: '/',
+                }, {
+                    property: 'og:type',
+                    content: 'article',
+                }, {
+                    property: 'og:image',
+                    content: './images/logo_apuntes.png',
                 }]}
             />
         </>
