@@ -17,6 +17,10 @@ const HeadMeta = ({title = 'Home', description = 'A short description goes here.
                         rel: 'apple-touch-icon',
                         href: '/apple-touch-icon-76x76.png', // generated with https://iconifier.net/
                         sizes: '76x76'
+                    },
+                    {
+                        rel: 'manifest',
+                        href: '/manifest.json'
                     }
                 ]}
                 additionalMetaTags={[{
