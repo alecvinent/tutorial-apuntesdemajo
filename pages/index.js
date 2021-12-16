@@ -12,7 +12,7 @@ export default function Home({notes}) {
             <HeadMeta description={'Los Apuntes de Majo con Next.js'}/>
             <p className={styles.description}>
                 Majo here! 👋🏻, realizo apuntes a mano sobre las tecnologías más utilizadas. Podes sugerirme temas
-                en <a href={'https://twitter.com/MajoLedes'} target="_blank">@majoledes</a>
+                en <a href={'https://twitter.com/MajoLedes'} target="_blank" without rel="noreferrer">@majoledes</a>
             </p>
 
             <div className={styles.grid}>

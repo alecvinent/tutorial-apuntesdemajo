@@ -20,7 +20,7 @@ export default function Details({note}) {
             </p>
             <iframe src={note.file + '/preview'} width="640" height="480" allow="autoplay"/>
             <p>
-                <a href={note.file + '/view'} target="_blank">Download</a>
+                <a href={note.file + '/view'} target="_blank" without rel="noreferrer">Download</a>
             </p>
         </>
     )
