@@ -11,11 +11,11 @@ const HeadMeta = ({title = 'Home', description = 'A short description goes here.
                 additionalLinkTags={[
                     {
                         rel: 'icon',
-                        href: '/favicon.ico',
+                        href: '/icons/favicon.ico',
                     },
                     {
                         rel: 'apple-touch-icon',
-                        href: '/apple-touch-icon-76x76.png', // generated with https://iconifier.net/
+                        href: '/icons/apple-touch-icon-76x76.png', // generated with https://iconifier.net/
                         sizes: '76x76'
                     },
                     {
