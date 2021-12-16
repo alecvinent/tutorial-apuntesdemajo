@@ -7,6 +7,7 @@ import Link from "next/link";
 function MyApp({Component, pageProps}) {
     return (
         <>
+
             <div className={styles.container}>
                 <HeadMeta/>
 
@@ -28,8 +29,8 @@ function MyApp({Component, pageProps}) {
                     >
                         Powered by{' '}
                         <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16}/>
-          </span>
+                            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16}/>
+                        </span>
                     </a>
                 </footer>
 
@@ -38,4 +39,4 @@ function MyApp({Component, pageProps}) {
     );
 }
 
-export default MyApp
+export default MyApp;

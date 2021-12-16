@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.scss'
 import {tags} from "../shared/tags";
 import {CACHE_TIMEOUT} from "../shared/config";
 import {NotePropTypes} from "../shared/types";
-import Head from 'next/head';
+import HeadMeta from "../components/HeadMeta";
 
 export default function Details({note}) {
     const router = useRouter();
@@ -13,11 +13,7 @@ export default function Details({note}) {
 
     return (
         <>
-            <Head>
-                <title>
-                    Apuntes de {note.title}
-                </title>
-            </Head>
+            <HeadMeta title={'Apuntes de ' + note.title} description={note.description}/>
             <h2>Apuntes de {note.title}</h2>
             <p className={styles.description}>
                 {note.description}

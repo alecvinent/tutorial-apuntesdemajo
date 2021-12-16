@@ -4,10 +4,12 @@ import {tags} from "../shared/tags";
 import {NotePropTypes} from '../shared/types';
 import {CACHE_TIMEOUT} from "../shared/config";
 import Link from "next/link";
+import HeadMeta from "../components/HeadMeta";
 
 export default function Home({notes}) {
     return (
         <>
+            <HeadMeta description={'Los Apuntes de Majo con Next.js'}/>
             <p className={styles.description}>
                 Majo here! 👋🏻, realizo apuntes a mano sobre las tecnologías más utilizadas. Podes sugerirme temas
                 en <a href={'https://twitter.com/MajoLedes'} target="_blank">@majoledes</a>
